@@ -1,0 +1,15 @@
+level,metric,CV mean ± SD,External mean ± SD,gap (CV − ext)
+patch,accuracy,0.976 ± 0.012,0.923 ± 0.021,0.052926774511483976
+patch,auc,0.988 ± 0.017,0.984 ± 0.005,0.0040281198899808635
+patch,sensitivity,0.980 ± 0.014,0.921 ± 0.025,0.05909809243070252
+patch,specificity,0.961 ± 0.037,0.947 ± 0.033,0.013959313690203978
+patch,f1,0.973 ± 0.015,0.812 ± 0.034,0.16106417582771382
+patch,mcc,0.947 ± 0.029,0.667 ± 0.048,0.27955629354250544
+patch,balanced_acc,0.970 ± 0.017,0.934 ± 0.012,0.036528703060453194
+slide (mean prob.),accuracy,0.960 ± 0.089,1.000 ± 0.000,-0.040000000000000036
+slide (mean prob.),auc,1.000 ± 0.000,nan ± 0.000,
+slide (mean prob.),sensitivity,0.950 ± 0.112,1.000 ± 0.000,-0.050000000000000044
+slide (mean prob.),specificity,1.000 ± 0.000,nan ± 0.000,
+slide (mean prob.),f1,0.952 ± 0.106,nan ± 0.000,
+slide (mean prob.),mcc,0.922 ± 0.173,nan ± 0.000,
+slide (mean prob.),balanced_acc,0.975 ± 0.056,nan ± 0.000,

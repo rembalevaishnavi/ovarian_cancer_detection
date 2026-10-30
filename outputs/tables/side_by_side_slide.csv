@@ -1,0 +1,8 @@
+metric,Internal CV (OOF ensemble) [95% CI],External test [95% CI],generalisation gap
+accuracy,"0.806 [0.645, 0.935]","1.000 [1.000, 1.000]",-0.19354838709677424
+auc,"0.990 [0.959, 1.000]","nan [nan, nan]",
+sensitivity,"1.000 [1.000, 1.000]","1.000 [1.000, 1.000]",0.0
+specificity,"0.400 [0.111, 0.714]","nan [nan, nan]",
+f1,"0.723 [0.503, 0.886]","nan [nan, nan]",
+mcc,"0.558 [0.278, 0.795]","nan [nan, nan]",
+balanced_acc,"0.700 [0.556, 0.857]","nan [nan, nan]",

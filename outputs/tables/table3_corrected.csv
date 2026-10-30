@@ -1,0 +1,13 @@
+scope,evaluation,model,runs,accuracy,auc,mcc,balanced_acc,sensitivity,specificity
+all runs,internal CV,effnet_b4_cbam,15,0.974 ± 0.015,0.988 ± 0.014,0.943 ± 0.032,0.969 ± 0.017,0.978 ± 0.014,0.961 ± 0.031
+all runs,internal CV,effnet_b4,5,0.976 ± 0.012,0.988 ± 0.017,0.947 ± 0.029,0.970 ± 0.017,0.980 ± 0.014,0.961 ± 0.037
+all runs,internal CV,resnet50,5,0.979 ± 0.015,0.987 ± 0.019,0.954 ± 0.033,0.974 ± 0.018,0.985 ± 0.010,0.964 ± 0.035
+all runs,external sites,effnet_b4_cbam,15,0.928 ± 0.023,0.984 ± 0.006,0.679 ± 0.065,0.933 ± 0.015,0.927 ± 0.025,0.939 ± 0.026
+all runs,external sites,effnet_b4,5,0.923 ± 0.021,0.984 ± 0.005,0.667 ± 0.048,0.934 ± 0.012,0.921 ± 0.025,0.947 ± 0.033
+all runs,external sites,resnet50,5,0.928 ± 0.044,0.985 ± 0.008,0.705 ± 0.135,0.944 ± 0.022,0.925 ± 0.048,0.963 ± 0.013
+seed 0 only (fold-matched),internal CV,effnet_b4_cbam,5,0.977 ± 0.011,0.988 ± 0.016,0.949 ± 0.026,0.972 ± 0.016,0.981 ± 0.014,0.962 ± 0.034
+seed 0 only (fold-matched),internal CV,effnet_b4,5,0.976 ± 0.012,0.988 ± 0.017,0.947 ± 0.029,0.970 ± 0.017,0.980 ± 0.014,0.961 ± 0.037
+seed 0 only (fold-matched),internal CV,resnet50,5,0.979 ± 0.015,0.987 ± 0.019,0.954 ± 0.033,0.974 ± 0.018,0.985 ± 0.010,0.964 ± 0.035
+seed 0 only (fold-matched),external sites,effnet_b4_cbam,5,0.919 ± 0.025,0.985 ± 0.006,0.659 ± 0.055,0.933 ± 0.013,0.916 ± 0.028,0.950 ± 0.033
+seed 0 only (fold-matched),external sites,effnet_b4,5,0.923 ± 0.021,0.984 ± 0.005,0.667 ± 0.048,0.934 ± 0.012,0.921 ± 0.025,0.947 ± 0.033
+seed 0 only (fold-matched),external sites,resnet50,5,0.928 ± 0.044,0.985 ± 0.008,0.705 ± 0.135,0.944 ± 0.022,0.925 ± 0.048,0.963 ± 0.013

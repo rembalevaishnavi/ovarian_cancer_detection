@@ -1,0 +1,22 @@
+level,metric,CV mean ± SD,External mean ± SD,gap (CV − ext)
+patch,accuracy,0.974 ± 0.015,0.928 ± 0.023,0.04626853520011531
+patch,auc,0.988 ± 0.014,0.984 ± 0.006,0.004329895131008232
+patch,sensitivity,0.978 ± 0.014,0.927 ± 0.025,0.05126975510833287
+patch,specificity,0.961 ± 0.031,0.939 ± 0.026,0.02201988066148597
+patch,f1,0.972 ± 0.016,0.821 ± 0.041,0.1507309887912428
+patch,mcc,0.943 ± 0.032,0.679 ± 0.065,0.2640513840413956
+patch,balanced_acc,0.969 ± 0.017,0.933 ± 0.015,0.03664481788490914
+slide (mean prob.),accuracy,0.962 ± 0.079,1.000 ± 0.000,-0.0377777777777778
+slide (mean prob.),auc,1.000 ± 0.000,nan ± 0.000,
+slide (mean prob.),sensitivity,0.950 ± 0.104,1.000 ± 0.000,-0.050000000000000044
+slide (mean prob.),specificity,1.000 ± 0.000,nan ± 0.000,
+slide (mean prob.),f1,0.957 ± 0.091,nan ± 0.000,
+slide (mean prob.),mcc,0.929 ± 0.149,nan ± 0.000,
+slide (mean prob.),balanced_acc,0.975 ± 0.052,nan ± 0.000,
+slide (gated ABMIL),accuracy,0.823 ± 0.245,1.000 ± 0.000,-0.17746031746031754
+slide (gated ABMIL),auc,1.000 ± 0.000,nan ± 0.000,
+slide (gated ABMIL),sensitivity,1.000 ± 0.000,1.000 ± 0.000,0.0
+slide (gated ABMIL),specificity,0.617 ± 0.410,nan ± 0.000,
+slide (gated ABMIL),f1,0.767 ± 0.286,nan ± 0.000,
+slide (gated ABMIL),mcc,0.655 ± 0.404,nan ± 0.000,
+slide (gated ABMIL),balanced_acc,0.808 ± 0.205,nan ± 0.000,
